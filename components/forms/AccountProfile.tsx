@@ -57,6 +57,8 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
         values.profile_photo = imgRes[0].fileUrl;
       }
     }
+
+    // TODO: Update user profile
   };
 
   const handleImage = (
