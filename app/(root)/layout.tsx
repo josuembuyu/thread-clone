@@ -6,6 +6,8 @@ import Topbar from "@/components/shared/Topbar";
 import LeftSidebar from "@/components/shared/LeftSidebar";
 import RightSidebar from "@/components/shared/RightSidebar";
 import Bottombar from "@/components/shared/Bottombar";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,12 +29,13 @@ export default function RootLayout({
           <main className="flex flex-row">
             <LeftSidebar />
             <section className="main-container">
-              <div className="w-full max-w-4xl">{children}</div>
+              <div className="w-full max-w-4xl">
+                <Suspense fallback={<Loading />}>{children}</Suspense>
+              </div>
             </section>
             <RightSidebar />
           </main>
           <Bottombar />
-          
         </body>
       </html>
     </ClerkProvider>
