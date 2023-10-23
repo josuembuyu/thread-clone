@@ -26,7 +26,7 @@ ThreadClone" is an emulation project built using Next.js 13, aimed at replicatin
 
 **Client & Server:** Typescript, React, TailwindCSS, Shacdcn/ui, Next.js 13.4 with Server Side Rendering, MongoDB, Webhooks
 
-**Forms:** Zod, React Hook Form, Uploadthing
+**Forms:** Zod, React Hook Form
 
 **Upload Files:** Uploadthing
 
