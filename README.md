@@ -3,19 +3,19 @@
 
 I'm embarking on an ambitious project, "ThreadClone," designed to replicate the functionality of renowned social media platforms for educational and experimental purposes. Beyond being a mock social media platform, I aim to provide a comprehensive learning experience for developers and enthusiasts. This project covers:
 
-- I'll master Next.js 13.4 with Server Side Rendering.
-- I'll learn MongoDB handling of complex schemas, multiple data population.
-- I'll create beautiful layouts with TailwindCSS.
-- I'll use Clerk for authentication.
-- I'll handle file uploads with UploadThing.
-- I'll explore Shadcn components.
-- I'll listen to real-time events with webhooks.
-- I'll understand middleware, API actions, and authorization.
-- I'll explore & integrate new Next.js layout route groups.
-- I'll validate data with Zod.
-- I'll manage forms with react hook form.
-- I'll create reusable components.
-- I'll build a solid application architecture.
+- I master Next.js 13.4 with Server Side Rendering.
+- I learn MongoDB handling of complex schemas, multiple data population.
+- I create beautiful layouts with TailwindCSS.
+- I use Clerk for authentication.
+- I handle file uploads with UploadThing.
+- I explore Shadcn components.
+- I listen to real-time events with webhooks.
+- I understand middleware, API actions, and authorization.
+- I explore & integrate new Next.js layout route groups.
+- I validate data with Zod.
+- I manage forms with react hook form.
+- I create reusable components.
+- I build a solid application architecture.
   
 ThreadClone integrates advanced technologies and best practices, allowing me to explore, experiment, and enhance my development skills while creating and customizing this simulated social media platform.
 
